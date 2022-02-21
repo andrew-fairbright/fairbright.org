@@ -1,7 +1,3 @@
-// SASS Variables.
-$text: #ffffff;
-$background: #52ADE3;
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
 canvas {
@@ -13,7 +9,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-	background: $background
+  background: #52ADE3
 }
 
 .text {
@@ -21,7 +17,7 @@ canvas {
 	top: 50%;
 	right: 50%;
 	transform: translate(50%,-50%);
-	color: $text;
+	color: #ffffff;
 	max-width: 90%;
 	padding: 2em 3em;
 	background: rgba(82, 173, 227, 0.7);
